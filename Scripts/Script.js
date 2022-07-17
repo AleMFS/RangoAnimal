@@ -101,7 +101,7 @@ racoesCat.forEach((item, index) => {
 
   imgRacao.src = item.img
   descRacao.innerText = item.descricao
-  racaoValor.innerHTML = `<span> Valor </span> R$${item.precoKG.toFixed(2).toString().replace(".", ",")}`
+  racaoValor.innerHTML = `<span> Valor </span> R$${item.precoKG.toFixed(2).toString().replace(".", ",")} Kg`
 
   //  // // Modal  // // //
 
@@ -113,7 +113,7 @@ racoesCat.forEach((item, index) => {
     document.querySelector('.img-racaoBIG img').src = racoesCat[key].img
     document.querySelector('.racaologo').src = racoesCat[key].logo
     document.querySelector('.racao-desc').innerHTML = racoesCat[key].descricao
-    document.querySelector('.racaoprice').innerHTML = `${racoesCat[key].precoKG},00`
+    document.querySelector('.racaoprice').innerHTML = `${racoesCat[key].precoKG},00Kg`
 
     document.querySelector('.racaoWindowArea').style.opacity = '0'
     document.querySelector('.racaoWindowArea').style.display = 'flex'
@@ -145,7 +145,7 @@ racoesDog.forEach((item, index) => {
 
   imgRacao.src = item.img
   descRacao.innerText = item.descricao
-  racaoValor.innerHTML = `<span> Valor </span> R$${item.precoKG.toFixed(2).toString().replace(".", ",")}`
+  racaoValor.innerHTML = `<span> Valor </span> R$${item.precoKG.toFixed(2).toString().replace(".", ",")} Kg`
 
   //  // // Modal  // // //
 
@@ -157,7 +157,7 @@ racoesDog.forEach((item, index) => {
     document.querySelector('.img-racaoBIG img').src = racoesDog[key].img
     document.querySelector('.racaologo').src = racoesDog[key].logo
     document.querySelector('.racao-desc').innerHTML = racoesDog[key].descricao
-    document.querySelector('.racaoprice').innerHTML = `${racoesDog[key].precoKG},00`
+    document.querySelector('.racaoprice').innerHTML = `${racoesDog[key].precoKG},00 Kg`
 
     document.querySelector('.racaoWindowArea').style.opacity = '0'
     document.querySelector('.racaoWindowArea').style.display = 'flex'
