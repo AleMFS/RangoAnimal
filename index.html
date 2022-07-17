@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleRA.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="//db.onlinewebfonts.com/c/e18b014d4b0d398ca7f403389acc6d39?family=KengwinW00-Regular" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Imagens/Layout/icone.png" />
+
+    <title>Rango Animal</title>
+
+    <script src="Scripts/racaoCat.js" defer></script>
+    <script src="Scripts/racaoDog.js" defer></script>
+    <script src="Scripts/Script.js"defer ></script>
+</head>
+
+<body>
+
+
+
+    <header>
+        <div class="header-mobile">
+            <img class="logo-mobile" src="Imagens/Layout/Logo_Branco.png" alt="">
+
+
+            <i class="fa-solid fa-bars hamb-icone"></i>
+            <div class="hamburguer">
+                <i class="fa-solid fa-xmark"></i>
+                <ul>
+                    <li><a href="https://api.whatsapp.com/send?phone=5571987264311&text=Ol%C3%A1%2C%20tenho%20interesse%20em%20produtos%20da%20sua%20loja!"
+                            target="_blank"><i class="fa-brands fa-whatsapp"></i> Contato </a></li>
+                    <li><a href="https://www.google.com.br/maps/place/Rango+Animal/@-12.9803378,-38.4383993,18.25z/data=!4m12!1m6!3m5!1s0x7161b4a68955129:0x7267468d77e7491e!2sRango+Animal!8m2!3d-12.9801096!4d-38.4384485!3m4!1s0x7161b4a68955129:0x7267468d77e7491e!8m2!3d-12.9801096!4d-38.4384485"
+                            target="_blank"><i class="fa-solid fa-location-dot"></i> Localização</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="hearder-desktop">
+
+            <img src="Imagens/Layout/meia_bolaGato.png" alt="" class="bola">
+            <img src="Imagens/Layout/GatoCuriosooo.png" alt="" class="pet">
+            <div class="container">
+                <img src="Imagens/Layout/Logo_gato.png" alt="" class="logo">
+                <nav>
+                    <a href="https://api.whatsapp.com/send?phone=5571987264311&text=Ol%C3%A1%2C%20tenho%20interesse%20em%20produtos%20da%20sua%20loja!"
+                        target="_blank" class="navigation contato ">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Contato
+                    </a>
+                    <a href="https://www.google.com.br/maps/place/Rango+Animal/@-12.9803378,-38.4383993,18.25z/data=!4m12!1m6!3m5!1s0x7161b4a68955129:0x7267468d77e7491e!2sRango+Animal!8m2!3d-12.9801096!4d-38.4384485!3m4!1s0x7161b4a68955129:0x7267468d77e7491e!8m2!3d-12.9801096!4d-38.4384485"
+                        target="_blank" class="navigation local ">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Localização
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="btn-pet">
+            <div class="pets gato  ">
+                <img src="Imagens/Layout/ModeloGato.png" alt="iconede gato" class="icone">
+                <p>Gato</p>
+            </div>
+            <div class="pets cao cachorro">
+                <img src="Imagens/Layout/ModeloCao.png" alt="icone de Cão" class="icone ">
+                <p>Cachorro</p>
+            </div>
+
+        </section>
+
+        <section class="container-carrosel">
+            <i class="fa-solid arrow fa-angle-left"></i>
+            <div class="slider-carrosel">
+                <div class="slides2 racao-cao"></div>
+                <div class="slides racao-gato">
+
+
+                </div>
+            </div>
+            <i class="fa-solid arrow fa-angle-right"></i>
+
+        </section>
+
+        <section class="sache-area">
+            <div class="setor-sache">Sachês</div>
+            <div class="sache-container  areaSache-gato">
+            </div>
+            <div class="sache-container-escondido areaSache-cao">
+
+            </div>
+
+
+        </section>
+        <aside>
+
+            <!-- Modal -->
+            <div class="racaoWindowArea">
+                <div class="racaoWindowBody">
+                    <button class="btn-voltar-mobile">Voltar</button>
+                    <div class="img-racaoBIG">
+                        <img class="imagem-Modal" src="" />
+                    </div>
+                    <div class="racao-info">
+                        <img src="" alt="" class="racaologo">
+                        <h3 class="racao-desc"></h3>
+
+                        <div class="racaoInfo-Pricearea">
+                            <div class="racaoinfo--sector">Preço</div>
+                            <div class="racaoinfo--price">
+                                <h3 class="racaoprice"></h3>
+                                <h3><span> KG</span></h3>
+                                <h5>( o Kilo )</h5>
+                            </div>
+                            <div class="racaoInfo-btnVoltar">Voltar</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </aside>
+
+
+    </main>
+
+   
+</body>
+
+</html>
